@@ -1,0 +1,5 @@
+for i in 'ls input/*.cm'
+do
+echo $i
+./cmc $i
+done
